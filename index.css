@@ -1,0 +1,161 @@
+header {
+    margin-left: -10px;
+    position: relative;
+    background-image: url("Untitled.png");
+    top: 25px;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+nav {
+    text-align: center;
+    word-spacing: 25px;
+    font-family: Arial, sans-serif;
+    padding-top: 7px;
+    font-weight: bold;
+
+
+}
+
+nav a:hover{
+    color: whitesmoke;
+    background: rgba(15, 148, 22, 0.77);
+    padding: 3px;
+    border-radius: 20px;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: mintcream;
+}
+
+h4 {
+    text-align: center;
+    color: mintcream;
+    font-size: 18px;
+}
+
+.maja {
+    display: block;
+    float: right;
+    position: relative;
+    border-radius: 50%;
+    right: 300px;
+    top: 70px;
+    height: 350px;
+    border: 2px solid   #0f9416;
+}
+
+#ime {
+    font-size: 60px;
+    color: rgba(15, 148, 22, 0.77);
+    font-family: Fantasy, sans-serif;
+
+}
+
+a {
+    color: #4ea4c9;
+    text-decoration: none;
+}
+
+body {
+    background: radial-gradient(lightblue, deepskyblue, lightskyblue, mediumseagreen, greenyellow);
+    font-family: Arial, sans-serif;
+}
+
+.flower {
+    height: 40px;
+    margin-bottom: 40px;
+    clear: bottom;
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: top;
+    top: 15px;
+    left: 10px;
+}
+
+.flower1 {
+    height: 40px;
+    margin-bottom: 40px;
+    clear: bottom;
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: top;
+    top: 15px;
+    left: 1470px;
+}
+
+.podatoci {
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 100px;
+
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 45px solid   rgba(15, 148, 22, 0.77);
+    border-bottom: 20px solid transparent;
+    margin-left: 25px;
+    display: inline;
+
+}
+
+#info, #info1 {
+    font-size: 23px;
+    color: rgba(15, 148, 22, 0.77);
+    display: inline;
+}
+
+.posleden {
+    border-radius: 25px;
+    margin-left: 220px;
+    margin-right: 230px;
+    margin-top: 200px;
+    background-color: rgba(245, 255, 250, 0.63);
+    color: dodgerblue;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+footer img {
+    height: 35px;
+}
+
+footer {
+    margin: 100px 0 0 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 250px;
+    background: rgba(245, 245, 245, 0.85);
+    color: #4ea4c9;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+.fb, .insta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fb p, .insta p {
+    position: relative;
+    left: -10px;
+    top: -7px;
+}
+
+.info {
+    line-height: 27px;
+    font-size: 17px;
+}

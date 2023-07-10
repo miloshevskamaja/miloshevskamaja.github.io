@@ -1,0 +1,143 @@
+header {
+    margin-left: -10px;
+    position: relative;
+    background-image: url("Untitled.png");
+    top: 25px;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+nav {
+    text-align: center;
+    word-spacing: 25px;
+    font-family: Arial, sans-serif;
+    padding-top: 7px;
+    font-weight: bold;
+
+
+}
+
+a {
+    color: #4ea4c9;
+    text-decoration: none;
+}
+nav a:hover{
+    color: whitesmoke;
+    background: rgba(15, 148, 22, 0.77);
+    padding: 3px;
+    border-radius: 20px;
+}
+.title{
+    background: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: #0f9416;
+    width: 300px;
+    border-radius: 20px;
+    margin: 50px auto 0;
+}
+
+
+.flower {
+    height: 40px;
+    margin-bottom: 40px;
+    clear: bottom;
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: top;
+    top: 15px;
+    left: 10px;
+}
+
+.flower1 {
+    height: 40px;
+    margin-bottom: 40px;
+    clear: bottom;
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: top;
+    top: 15px;
+    left: 1470px;
+}
+
+#edu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding-top: 30px;
+    margin: 0 30px;
+}
+
+img {
+    height: 380px;
+    width: auto;
+    border-radius: 10px;
+}
+
+body {
+    background: radial-gradient(lightblue, deepskyblue, lightskyblue, mediumseagreen, greenyellow);
+
+}
+
+div#edu > div {
+    background: rgba(245, 245, 245, 0.72);
+    border-radius: 10px;
+    padding: 0 20px;
+    text-align: center;
+    border: 2px solid #4ea4c9;
+
+}
+
+h3:not(footer h3) {
+    text-decoration: underline;
+    font-family: Cursive, cursive;
+    color: mediumseagreen;
+    font-size: 23px;
+}
+
+div#edu > div p {
+    font-family:"Arial",cursive;
+    font-size: 17px;
+    color: #3f6ed7;
+    line-height: 23px;
+}
+
+footer img {
+    height: 35px;
+}
+
+footer {
+    margin: 100px 0 0 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 250px;
+    background: rgba(245, 245, 245, 0.85);
+    color: #4ea4c9;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+.fb, .insta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fb p, .insta p {
+    position: relative;
+    left: -10px;
+    top: -7px;
+}
+
+.info {
+    line-height: 27px;
+    font-size: 17px;
+}

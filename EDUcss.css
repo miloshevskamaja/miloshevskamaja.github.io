@@ -1,0 +1,188 @@
+header{
+    margin-left: -10px;
+    position: relative;
+    background-image: url("Untitled.png");
+    top: 25px;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+nav{
+    text-align: center;
+    word-spacing: 25px;
+    font-family: Arial, sans-serif;
+    padding-top: 7px;
+    font-weight: bold;
+
+
+}
+nav a:hover{
+    color: whitesmoke;
+    background: rgba(15, 148, 22, 0.77);
+    padding: 3px;
+    border-radius: 20px;
+}
+
+
+a{
+    color: #4ea4c9;
+    text-decoration: none;
+}
+.flower{
+    height: 40px;
+    margin-bottom: 40px;
+    clear: bottom;
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: top;
+    top: 15px;
+    left: 10px;
+}
+.flower1{
+    height: 40px;
+    margin-bottom: 40px;
+    clear: bottom;
+    position: absolute;
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: top;
+    top: 15px;
+    left: 1470px;
+}
+
+
+body {
+    background: radial-gradient(lightblue, deepskyblue, lightskyblue, mediumseagreen, greenyellow);
+
+}
+
+.title{
+    background: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: #0f9416;
+    width: 300px;
+    border-radius: 20px;
+    margin: 50px auto 0;
+}
+
+#elementary{
+    display: inline;
+    float:right;
+    position: absolute;
+    border-radius: 50%;
+    right: 230px;
+    top: 250px;
+    height: 200px;
+    border: 2px solid #0f9416;
+
+}
+#music{
+    display: block;
+    float: left;
+    position: absolute;
+    border-radius: 50%;
+    right: 1020px;
+    top:  540px;
+    height: 220px;
+    border: 2px solid #0f9416;
+}
+#high{
+    display: block;
+    float:right;
+    position: absolute;
+    border-radius: 50%;
+    right: 230px;
+    top: 830px;
+    height: 220px;
+    border: 2px solid #0f9416;
+}
+#faculty{
+    display: block;
+    float:right;
+    position: relative;
+    border-radius: 50%;
+    right: 120px;
+    top: -280px;
+    height: 200px;
+    border: 2px solid #0f9416;
+}
+.text{
+    color: mintcream;
+    font-family: Cursive,sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-shadow: 1px 1px 2px black, 0 0 25px navajowhite, 0 0 5px greenyellow;;
+}
+#e {
+   margin-top: 100px;
+    margin-left: -350px;
+    text-align: center;
+
+}
+#m{
+    margin-top: 110px;
+    margin-left: 300px;
+    text-align: center;
+}
+#h{
+    margin-top: 120px;
+    margin-left: -300px;
+    text-align: center;
+
+}
+#f{
+    margin-top: 100px;
+    text-align: center;
+
+}
+#finki{
+    display: block;
+    float:left;
+    position: relative;
+    border-radius: 50%;
+    right: -200px;
+    top: -250px;
+    height: 150px;
+    border: 2px solid #0f9416;
+}
+
+
+footer img {
+    height: 35px;
+}
+
+footer {
+    margin: 220px 0 0 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 250px;
+    background: rgba(245, 245, 245, 0.85);
+    color: #4ea4c9;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+.fb, .insta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fb p, .insta p {
+    position: relative;
+    left: -10px;
+    top: -7px;
+}
+
+.info {
+    line-height: 27px;
+    font-size: 17px;
+}
+
